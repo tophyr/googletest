@@ -702,7 +702,7 @@ typedef struct _RTL_CRITICAL_SECTION GTEST_CRITICAL_SECTION;
     defined(GTEST_OS_DRAGONFLY) || defined(GTEST_OS_FREEBSD) ||  \
     defined(GTEST_OS_NETBSD) || defined(GTEST_OS_OPENBSD) ||     \
     defined(GTEST_OS_GNU_HURD) || defined(GTEST_OS_MAC)
-#define GTEST_CAN_STREAM_RESULTS_ 1
+#define GTEST_CAN_STREAM_RESULTS_ 0
 #else
 #define GTEST_CAN_STREAM_RESULTS_ 0
 #endif
